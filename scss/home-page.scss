@@ -1,0 +1,34 @@
+section#home-page {
+    $header_w: 100%;
+    $header_h: 60px;
+    $footer_w: 100%;
+    $footer_h: 120px;
+    $main_w: 100%;
+    $main_h: calc(100vh - $header_h - $footer_h);
+    /*  */
+    width: 100%;
+    height: 100vh;
+    /*  */
+    >header {
+        width: $header_w;
+        height: $header_h;
+        background-color: #292929;
+        color: #f1f1f1;
+    }
+    /*  */
+    >main {
+        width: $main_w;
+        /*  */
+        #section_01 {
+            background-color: #d4aafd;
+            padding: 30px;
+            /*  */
+        }
+    }
+    /*  */
+    >footer {
+        width: $footer_w;
+        height: $footer_h;
+        background-color: #292929;
+    }
+}

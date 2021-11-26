@@ -1,0 +1,20 @@
+{
+  "name": "esp",
+  "version": "1.0.0",
+  "description": "site da esp telecom",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass -w scss/main.scss css/main.min.css --style=compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saulotarsobc/esp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saulotarsobc/esp/issues"
+  },
+  "homepage": "https://github.com/saulotarsobc/esp#readme"
+}
