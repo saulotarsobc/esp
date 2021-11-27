@@ -17,12 +17,12 @@ section#home-page {
     }
     /*  */
     >main {
-        width: $main_w;
-        height: $main_h;
         /*  */
         #section_01 {
             background-color: #d4aafd;
             padding: 30px;
+            width: $main_w;
+            height: $main_h;
             /*  */
         }
     }
