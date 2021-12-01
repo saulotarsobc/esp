@@ -1,0 +1,85 @@
+#home-page {
+    >footer {
+        width: 100%;
+        background-color: #2B3591;
+        color: #f1f1f1;
+        display: flex;
+        height: auto;
+        padding: 35px 0 15px;
+        /*  */
+        #f_wrap {
+            margin: auto;
+            width: 1255px;
+            height: 390px;
+            display: flex;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            /*  */
+            .col {
+                width: 418px;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                /* background-color: #5802ae;
+                border: #292929 1px solid; */
+                &+.col {
+                    margin-left: 5px;
+                }
+                /*  */
+            }
+            #col_01 {
+                justify-content: space-around;
+                /*  */
+            }
+            #col_02 {
+                justify-content: space-around;
+                #col_02_wrap {
+                    height: 230px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    /*  */
+                    h3 {
+                        font-size: 24px;
+                        font-weight: 900;
+                        color: #fff;
+                        margin-bottom: 18px;
+                    }
+                    a#fale_conosco {
+                        padding: 20px 50px;
+                        background-color: #EB028B;
+                        color: #f1f1f1;
+                        width: 70%;
+                        min-width: 100px;
+                        font-size: 16px;
+                        font-weight: 700;
+                        text-align: center;
+                        border-radius: 10px;
+                        margin-bottom: 18px;
+                    }
+                    #social {
+                        display: flex;
+                        width: 130px;
+                        justify-content: space-between;
+                        a {
+                            svg {
+                                padding: 4px;
+                                height: 30px;
+                                border-radius: 4px;
+                                background-color: #f1f1f1;
+                                width: 100%;
+                                color: #000000;
+                            }
+                        }
+                    }
+                }
+            }
+            #col_03 {
+                /*  */
+            }
+        }
+    }
+}
