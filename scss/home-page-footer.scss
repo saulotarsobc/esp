@@ -29,16 +29,9 @@
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                /* background-color: #5802ae;
-                border: #292929 1px solid; */
-                &+.col {
-                    margin-left: 5px;
-                }
-                /*  */
             }
             #col_01 {
                 justify-content: space-around;
-                /*  */
             }
             #col_02 {
                 justify-content: space-around;
@@ -71,6 +64,7 @@
                         display: flex;
                         width: 130px;
                         justify-content: space-between;
+                        /*  */
                         a {
                             svg {
                                 padding: 4px;
@@ -78,7 +72,7 @@
                                 border-radius: 4px;
                                 background-color: #f1f1f1;
                                 width: 100%;
-                                color: #000000;
+                                color: #101010;
                             }
                         }
                     }
@@ -97,6 +91,50 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
+        }
+    }
+    @media (max-width: 1288px) {
+        >footer {
+            width: 100%;
+            /*  */
+            #f_wrap {
+                width: 100%;
+                /*  */
+                .col {
+                    padding: 5px;
+                }
+            }
+            #f_wrap2 {
+                width: 100%;
+                flex-direction: column;
+            }
+        }
+    }
+    @media (max-width: 1288px) {
+        >footer {
+            width: 100%;
+            /*  */
+            #f_wrap {
+                flex-direction: column;
+                /*  */
+                width: 100%;
+                /*  */
+                .col {
+                    padding: 5px;
+                    &+.col {
+                        border-top: 1px solid #fff;
+                        width: 100%;
+                    }
+                }
+                #logo {
+                    width: auto;
+                }
+            }
+            #f_wrap2 {
+                width: 100%;
+                flex-direction: column;
+                text-align: center;
+            }
         }
     }
 }
