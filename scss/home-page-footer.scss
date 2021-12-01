@@ -16,6 +16,12 @@
             align-items: center;
             justify-content: space-between;
             /*  */
+            #logo {
+                width: 100%;
+                >img {
+                    width: 250px;
+                }
+            }
             .col {
                 width: 418px;
                 height: 335px;
