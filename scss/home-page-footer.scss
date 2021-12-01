@@ -4,13 +4,13 @@
         background-color: #2B3591;
         color: #f1f1f1;
         display: flex;
+        flex-direction: column;
         height: auto;
         padding: 35px 0 15px;
         /*  */
         #f_wrap {
             margin: auto;
             width: 1255px;
-            height: 390px;
             display: flex;
             display: flex;
             align-items: center;
@@ -18,7 +18,7 @@
             /*  */
             .col {
                 width: 418px;
-                height: 100%;
+                height: 335px;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
@@ -49,10 +49,10 @@
                         margin-bottom: 18px;
                     }
                     a#fale_conosco {
-                        padding: 20px 50px;
+                        padding: 16px;
                         background-color: #EB028B;
                         color: #f1f1f1;
-                        width: 70%;
+                        width: 80%;
                         min-width: 100px;
                         font-size: 16px;
                         font-weight: 700;
@@ -80,6 +80,16 @@
             #col_03 {
                 /*  */
             }
+        }
+        #f_wrap2 {
+            border-top: 2px solid #f1f1f144;
+            padding-top: 15px;
+            margin: auto;
+            width: 1255px;
+            display: flex;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
         }
     }
 }
