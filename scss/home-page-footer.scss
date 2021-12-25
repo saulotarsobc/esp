@@ -59,6 +59,11 @@
                         text-align: center;
                         border-radius: 10px;
                         margin-bottom: 18px;
+                        transition: all .2s ease-in-out;
+                        /*  */
+                        &:hover {
+                            background-color: #ff0095;
+                        }
                     }
                     #social {
                         display: flex;
@@ -73,17 +78,51 @@
                                 background-color: #f1f1f1;
                                 width: 100%;
                                 color: #101010;
+                                transition: all .2s ease-in-out;
+                                /*  */
+                                &:hover {
+                                    transform: scale(1.2);
+                                }
                             }
                         }
                     }
                 }
             }
             #col_03 {
+                justify-content: space-around;
                 /*  */
+                #col_03_wrap {
+                    width: 230px;
+                    height: 200px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-items: space-between;
+                    /*  */
+                    .content {
+                        color: white;
+                        height: 100%;
+                        /*  */
+                        h2 {
+                            margin-bottom: 5px;
+                        }
+                        a,
+                        a:active,
+                        a:link {
+                            color: #fff;
+                            font-weight: 700;
+                            transition: all .2s ease-in-out;
+                            /*  */
+                            &:hover {
+                                color: #00d1d1;
+                            }
+                        }
+                    }
+                }
             }
         }
         #f_wrap2 {
             border-top: 2px solid #f1f1f144;
+            color: #b5b5b5;
             padding-top: 15px;
             margin: auto;
             width: 1255px;
