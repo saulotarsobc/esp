@@ -18,12 +18,11 @@
             ul {
                 li {
                     display: inline;
-                    margin: 0 15px;
-                    font-weight: bold;
+                    // font-weight: bold;
 
                     a {
                         color: rgb(255, 255, 255);
-                        padding: 10px;
+                        padding: 10px 8px;
                         transition: all .5s;
                         border-radius: 5px;
 
@@ -37,34 +36,33 @@
 
         #assine-ja {
             background: radial-gradient(100% 742.83% at 0% 0%, #660467 0%, rgba(102, 4, 103, 0.6) 100%);
-            padding: 9px;
-            margin: 0 20px;
+            padding: 10px 8px;
+            margin: 0 5px;
             border-radius: 50px;
             color: white;
             font-weight: bold;
+            border: 1px solid white;
         }
     }
 }
 
 #main {
-    height: calc(100vh - 66px);
-
     #slides-wrap {
-        // background-color: red;
-        height: 100%;
+        height: calc(100vh - 66px);
         overflow: hidden;
         position: relative;
 
         #slides {
             display: flex;
             width: calc(100vw * 3);
-            height: 100%;
+            height: calc(100vh - 66px);
             position: absolute;
-            left: -100px;
+            left: 0;
 
-            /* slides */
             .slide {
                 width: 100vw;
+                height: 100%;
+                padding: 8px 10px;
             }
 
             #slide-1 {
@@ -81,13 +79,33 @@
         }
     }
 
-    #teste {
-        color: #0000;
-        -webkit-text-stroke: 2px #FFF;
+    #planos {
+        background-color: rebeccapurple;
+        height: 100vh;
+        padding: 8px 10px;
     }
+
+    #vantagens{
+        background-color: tomato;
+        height: 100vh;
+        padding: 8px 10px;
+    }
+
+    #sua-empresa{
+        background-color: #448f76;
+        height: 100vh;
+        padding: 8px 10px;
+    }
+}
+
+#footer-1 {
+    background-color: #3a1ddc;
+    height: 250px;
+    padding: 8px 10px;
 }
 
 #footer-2 {
     background-color: #448f76;
-    height: 250px;
+    height: 50px;
+    padding: 8px 10px;
 }
