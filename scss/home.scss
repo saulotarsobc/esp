@@ -1,0 +1,36 @@
+#header {
+    height: 66px;
+    background-color: rgba(1, 1, 1, 0.334);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 10px;
+
+    #logo {
+        height: 45px;
+    }
+
+    #wrap-1 {
+        display: flex;
+        align-items: center;
+        nav {
+            ul {
+                li {
+                    display: inline;
+
+                    a {
+                        color: white;
+                    }
+                }
+            }
+        }
+        #assine-ja{
+            background-color: rgb(255, 15, 15);
+            padding: 9px;
+            margin: 0 20px;
+            border-radius: 50px;
+        }
+    }
+}
