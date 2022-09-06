@@ -53,11 +53,14 @@
         // background-color: red;
         height: 100%;
         overflow: hidden;
+        position: relative;
 
         #slides {
             display: flex;
             width: calc(100vw * 3);
             height: 100%;
+            position: absolute;
+            left: -100px;
 
             /* slides */
             .slide {
