@@ -47,24 +47,34 @@
     background-color: aquamarine;
     min-height: calc(100vh - 66px);
 
-    #banners {
+    #slides {
         display: flex;
 
-        .banner {
+        .slide {
             min-height: calc(100vh - 66px);
             width: 100vw;
         }
 
-        #banner-1 {
+        #slide-1 {
             background-color: #676504;
         }
 
-        #banner-2 {
+        #slide-2 {
             background-color: aqua;
         }
 
-        #banner-3 {
+        #slide-3 {
             background-color: aliceblue;
         }
     }
+
+    #teste {
+        color: #0000;
+        -webkit-text-stroke: 2px #FFF;
+    }
+}
+
+#footer-2{
+    background-color: #448f76;
+    height: 250px;
 }
