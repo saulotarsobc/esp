@@ -1,6 +1,7 @@
 #header {
     height: 66px;
-    background-color: rgba(1, 1, 1, 0.334);
+    // background-color: rgba(1, 1, 1, 0.334);
+    background-color: #650467bd;
 
     display: flex;
     align-items: center;
@@ -10,6 +11,8 @@
 
     #logo {
         height: 45px;
+        // border: 1px solid white;
+        // border-radius: 5px;
     }
 
     #wrap-1 {
@@ -43,4 +46,25 @@
 #main {
     background-color: aquamarine;
     min-height: calc(100vh - 66px);
+
+    #banners {
+        display: flex;
+
+        .banner {
+            min-height: calc(100vh - 66px);
+            width: 100vw;
+        }
+
+        #banner-1 {
+            background-color: #676504;
+        }
+
+        #banner-2 {
+            background-color: aqua;
+        }
+
+        #banner-3 {
+            background-color: aliceblue;
+        }
+    }
 }
