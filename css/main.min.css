@@ -1,8 +1,9 @@
 /* Error: Can't find stylesheet to import.
  *   ,
- * 2 | @use 'home-page.scss';
- *   | ^^^^^^^^^^^^^^^^^^^^^
+ * 1 | @use 'header.scss';
+ *   | ^^^^^^^^^^^^^^^^^^
  *   '
+ *   scss\home.scss 1:1  @use
  *   scss\main.scss 2:1  root stylesheet */
 
 body::before {
@@ -13,5 +14,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a   \2577 \a 2 \2502  @use 'home-page.scss';\a   \2502  ^^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   scss\\main.scss 2:1  root stylesheet";
+  content: "Error: Can't find stylesheet to import.\a   \2577 \a 1 \2502  @use 'header.scss';\d\a   \2502  ^^^^^^^^^^^^^^^^^^\a   \2575 \a   scss\\home.scss 1:1  @use\a   scss\\main.scss 2:1  root stylesheet";
 }
