@@ -1,18 +1,13 @@
 #header {
     height: 66px;
-    // background-color: rgba(1, 1, 1, 0.334);
     background-color: #650467bd;
-
     display: flex;
     align-items: center;
     justify-content: space-between;
-
     padding: 0 10px;
 
     #logo {
         height: 45px;
-        // border: 1px solid white;
-        // border-radius: 5px;
     }
 
     #wrap-1 {
@@ -23,10 +18,18 @@
             ul {
                 li {
                     display: inline;
-                    margin: 0 20px;
+                    margin: 0 15px;
+                    font-weight: bold;
 
                     a {
                         color: rgb(255, 255, 255);
+                        padding: 10px;
+                        transition: all .5s;
+                        border-radius: 5px;
+
+                        &:hover {
+                            background-color: #660467;
+                        }
                     }
                 }
             }
@@ -44,27 +47,34 @@
 }
 
 #main {
-    background-color: aquamarine;
-    min-height: calc(100vh - 66px);
+    height: calc(100vh - 66px);
 
-    #slides {
-        display: flex;
+    #slides-wrap {
+        // background-color: red;
+        height: 100%;
+        overflow: hidden;
 
-        .slide {
-            min-height: calc(100vh - 66px);
-            width: 100vw;
-        }
+        #slides {
+            display: flex;
+            width: calc(100vw * 3);
+            height: 100%;
 
-        #slide-1 {
-            background-color: #676504;
-        }
+            /* slides */
+            .slide {
+                width: 100vw;
+            }
 
-        #slide-2 {
-            background-color: aqua;
-        }
+            #slide-1 {
+                background-color: #676504;
+            }
 
-        #slide-3 {
-            background-color: aliceblue;
+            #slide-2 {
+                background-color: aqua;
+            }
+
+            #slide-3 {
+                background-color: aliceblue;
+            }
         }
     }
 
@@ -74,7 +84,7 @@
     }
 }
 
-#footer-2{
+#footer-2 {
     background-color: #448f76;
     height: 250px;
 }

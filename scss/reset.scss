@@ -3,7 +3,9 @@
     src: url('../fonts/Poppins-Regular.ttf') format('ttf');
 }
 
-* {
+*,
+*::after,
+*::before {
     margin: 0;
     border: 0;
     padding: 0;
@@ -26,16 +28,16 @@ a:hover {
     height: 11px;
 }
 
- ::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
     background: #7A7A7A;
     border-radius: 30px;
 }
 
- ::-webkit-scrollbar-thumb:hover {
+::-webkit-scrollbar-thumb:hover {
     background: #525252;
 }
 
- ::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
     background: #CCCCCC;
     border-radius: 0px;
     box-shadow: inset 0px 0px 0px 0px #F0F0F0;
