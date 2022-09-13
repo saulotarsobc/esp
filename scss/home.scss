@@ -147,7 +147,6 @@ $violeta_transparent : #650467bd;
         background: linear-gradient(0deg, $violeta_transparent, #ff00964d), url("../img/group-diverse-people-having-business-meeting.jpg");
         background-repeat: no-repeat;
         background-size: cover;
-        background-color: #f89c11;
 
         header {
             display: flex;
@@ -182,6 +181,31 @@ $violeta_transparent : #650467bd;
             font-size: 40px;
             color: white;
         }
+
+        #btn-saiba-mais {
+            // margin-bottom: 60px;
+            height: 50px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            a {
+                background-color: #f89c11;
+                border: 3px solid white;
+                color: rgb(255, 255, 255);
+                padding: 10px 15px;
+                transition: all .5s;
+                border-radius: 50px;
+                margin-bottom: 60px;
+                font-size: 20px;
+
+                &:hover {
+                    // background-color: #660467;
+                    scale: 1.09;
+                }
+            }
+        }
     }
 }
 
@@ -191,6 +215,6 @@ $violeta_transparent : #650467bd;
 }
 
 #footer-2 {
-    background-color: #e2319e;
+    background-color: palevioletred;
     height: 50px
 }
