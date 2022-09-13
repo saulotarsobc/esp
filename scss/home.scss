@@ -82,7 +82,7 @@ $violeta_transparent : #650467bd;
     }
 
     #planos {
-        background-color: #FF5F00;
+        background-color: #f89c11;
         height: 300px;
 
         header {
@@ -129,7 +129,7 @@ $violeta_transparent : #650467bd;
 
                 h1 {
                     color: #0000;
-                    -webkit-text-stroke: 2px #FF5F00;
+                    -webkit-text-stroke: 2px #f89c11;
                     font-weight: 800;
                     line-height: 1;
                     font-size: 67px;
@@ -144,8 +144,44 @@ $violeta_transparent : #650467bd;
     }
 
     #sua-empresa {
-        background-color: #448f76;
-        height: 300px;
+        background: linear-gradient(0deg, $violeta_transparent, #ff00964d), url("../img/group-diverse-people-having-business-meeting.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #f89c11;
+
+        header {
+            display: flex;
+            justify-content: center;
+            padding: 60px 0;
+
+            .text {
+
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+
+                h1 {
+                    color: #0000;
+                    -webkit-text-stroke: 2px #FFF;
+                    font-weight: 800;
+                    line-height: 1;
+                    font-size: 67px;
+                }
+
+                h2 {
+                    // color: $violeta;
+                    color: white;
+                    font-size: 35px;
+                }
+            }
+        }
+
+        p {
+            padding: 60px 50px;
+            text-align: center;
+            font-size: 40px;
+            color: white;
+        }
     }
 }
 
