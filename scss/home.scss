@@ -191,14 +191,16 @@ $violeta_transparent : #650467bd;
             justify-content: center;
 
             a {
-                background-color: #f89c11;
                 border: 3px solid white;
                 color: rgb(255, 255, 255);
-                padding: 10px 15px;
+                padding: 10px 25px;
                 transition: all .5s;
                 border-radius: 50px;
                 margin-bottom: 60px;
                 font-size: 20px;
+
+                background: rgb(101, 4, 103);
+                background: linear-gradient(140deg, rgba(101, 4, 103, 1) 0%, rgba(101, 4, 103, 0.5381750112154237) 87%);
 
                 &:hover {
                     // background-color: #660467;
