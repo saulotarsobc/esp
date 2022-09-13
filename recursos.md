@@ -9,3 +9,5 @@
 [Imagens](https://www.freepik.com/popular-photos)
 
 [CSS](https://cssgradient.io/)
+
+[FONTS](https://www.onlinewebfonts.com/)

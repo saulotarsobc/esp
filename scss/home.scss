@@ -21,6 +21,7 @@ $orange : #f89c11;
         nav {
             ul {
                 display: flex;
+
                 li {
                     // display: inline;
                     color: rgb(255, 255, 255);
@@ -50,16 +51,16 @@ $orange : #f89c11;
 
 #main {
     #slides-wrap {
-        height: calc(100vh - 66px);
+        height: 750px;
         overflow: hidden;
         position: relative;
 
         #slides {
             display: flex;
             width: calc(100vw * 3);
-            height: calc(100vh - 66px);
+            height: 100%;
             position: absolute;
-            left: 0;
+            left: 0px;
 
             .slide {
                 width: 100vw;
@@ -68,7 +69,7 @@ $orange : #f89c11;
             }
 
             #slide-1 {
-                background-color: #676504;
+                background-color: white;
             }
 
             #slide-2 {
@@ -76,7 +77,7 @@ $orange : #f89c11;
             }
 
             #slide-3 {
-                background-color: aliceblue;
+                background-color: white;
             }
         }
     }
@@ -114,7 +115,7 @@ $orange : #f89c11;
 
     #vantagens {
         background-color: white;
-        height: 300px;
+        // height: 300px;
 
         header {
             display: flex;
@@ -141,10 +142,57 @@ $orange : #f89c11;
                 }
             }
         }
+
+        #vant-itens {
+            height: 220px;
+            padding: 40px;
+
+            display: flex;
+            flex-direction: row;
+
+            .vant-iten-group {
+                display: flex;
+                justify-content: space-around;
+
+                // background-color: rebeccapurple;
+                width: 100%;
+
+                .vant-iten {
+                    width: 50%;
+                    max-width: 200px;
+                    margin: 3px;
+                    padding: 30px 10px;
+                    border-radius: 30px;
+                    color: white;
+                    transition: all .4s;
+
+                    background: rgb(248, 156, 17);
+                    background: linear-gradient(180deg, rgba(248, 156, 17, 1) 13%, rgba(101, 4, 103, 0.7734691288624824) 100%);
+
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+
+                    i {
+                        font-size: 40px;
+                    }
+
+                    p {
+                        margin-top: 20px;
+                        text-align: center;
+                    }
+
+                    &:hover{
+                        scale: 1.2;
+                    }
+                }
+            }
+        }
     }
 
     #empresas {
-        background: linear-gradient(0deg, $violeta_transparent, #ff00964d), url("../img/group-diverse-people-having-business-meeting.jpg");
+        background: linear-gradient(0deg, $violeta, $violeta_transparent), url("../img/group-diverse-people-having-business-meeting.jpg");
         background-repeat: no-repeat;
         background-size: cover;
 
