@@ -1,6 +1,9 @@
+$violeta : #650467;
+$violeta_transparent : #650467bd;
+
 #header {
     height: 66px;
-    background-color: #650467bd;
+    background-color: $violeta_transparent;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -61,7 +64,7 @@
             .slide {
                 width: 100vw;
                 height: 100%;
-                padding: 8px 10px;
+
             }
 
             #slide-1 {
@@ -79,32 +82,79 @@
     }
 
     #planos {
-        background-color: rebeccapurple;
+        background-color: #FF5F00;
         height: 300px;
-        padding: 8px 10px;
+
+        header {
+            display: flex;
+            justify-content: center;
+            padding: 60px 0;
+
+            .text {
+
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+
+                h1 {
+                    color: #0000;
+                    -webkit-text-stroke: 2px #FFF;
+                    font-weight: 800;
+                    line-height: 1;
+                    font-size: 67px;
+                }
+
+                h2 {
+                    color: $violeta;
+                    font-size: 35px;
+                }
+            }
+        }
     }
 
     #vantagens {
-        background-color: tomato;
+        background-color: white;
         height: 300px;
-        padding: 8px 10px;
+
+        header {
+            display: flex;
+            justify-content: center;
+            padding: 60px 0;
+
+            .text {
+
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+
+                h1 {
+                    color: #0000;
+                    -webkit-text-stroke: 2px #FF5F00;
+                    font-weight: 800;
+                    line-height: 1;
+                    font-size: 67px;
+                }
+
+                h2 {
+                    color: $violeta;
+                    font-size: 35px;
+                }
+            }
+        }
     }
 
     #sua-empresa {
         background-color: #448f76;
         height: 300px;
-        padding: 8px 10px;
     }
 }
 
 #footer-1 {
     background-color: #3a1ddc;
-    height: 250px;
-    padding: 8px 10px;
+    height: 250px
 }
 
 #footer-2 {
     background-color: #e2319e;
-    height: 50px;
-    padding: 8px 10px;
+    height: 50px
 }
