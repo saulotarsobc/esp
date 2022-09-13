@@ -6,4 +6,6 @@
 
 [fontawesome](https://fontawesome.com/icons)
 
-[Template 02](https://template02.ispsites.com.br/)
+[Imagens](https://www.freepik.com/popular-photos)
+
+[CSS](https://cssgradient.io/)
