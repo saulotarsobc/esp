@@ -158,11 +158,11 @@ $orange : #f89c11;
                     height: 150px;
                     width: 50%;
                     // max-width: 200px;
-                    margin: 3px;
+                    margin: 5px;
                     padding: 30px 10px;
                     border-radius: 30px;
                     color: white;
-                    transition: all .2s;
+                    transition: all .4s;
 
                     background: rgb(248, 156, 17);
                     background: linear-gradient(180deg, rgba(248, 156, 17, 1) 13%, rgba(101, 4, 103, 0.7734691288624824) 100%);
@@ -183,7 +183,7 @@ $orange : #f89c11;
                     }
 
                     &:hover {
-                        scale: 1.08;
+                        scale: 1.04;
                     }
                 }
             }
@@ -330,7 +330,7 @@ $orange : #f89c11;
 }
 
 
-@media (max-width: 750px) {
+@media (max-width: 750px)   {
     #header{
         .wrap{
             nav{
