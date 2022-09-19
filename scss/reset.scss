@@ -9,6 +9,11 @@
     text-decoration: none;
 }
 
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 66px;
+}
+
 a,
 a:link,
 a:visited,

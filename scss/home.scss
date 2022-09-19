@@ -2,13 +2,19 @@ $violeta : #650467;
 $violeta_transparent : #650467bd;
 $orange : #f89c11;
 
+body{
+    position: relative;
+}
+
 #header {
-    height: 66px;
-    background-color: $violeta_transparent;
+    height: 68px;
+    width: 100%;
+    background-color: $violeta;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 10px;
+    position: fixed;
 
     #logo {
         height: 45px;
@@ -24,13 +30,16 @@ $orange : #f89c11;
 
                 li {
                     // display: inline;
-                    color: rgb(255, 255, 255);
                     padding: 10px 8px;
                     transition: all .5s;
                     border-radius: 5px;
 
                     &:hover {
-                        background-color: #660467;
+                        background-color: #b354b4;
+                    }
+
+                    a {
+                        color: rgb(255, 255, 255);
                     }
 
                 }
@@ -39,7 +48,7 @@ $orange : #f89c11;
 
         #assine-ja {
             background-image: linear-gradient(to right, #AA076B 0%, #61045F 51%, #AA076B 100%);
-            
+
             padding: 10px 18px;
             margin: 0 5px;
             border-radius: 50px;
@@ -54,13 +63,14 @@ $orange : #f89c11;
     #slides-wrap {
         height: 600px;
         overflow: hidden;
-        position: relative;
+        // position: relative;
 
         #slides {
+            padding-top: 66px;
             display: flex;
-            width: calc(100vw * 3);
+            // width: calc(100vw * 3);
             height: 100%;
-            position: absolute;
+            // position: absolute;
             left: 0px;
 
             .slide {
