@@ -1,0 +1,107 @@
+$violeta : #650467;
+$violeta_transparent : #650467bd;
+$orange : #f89c11;
+
+#planos {
+    background-color: $orange;
+
+    header {
+        display: flex;
+        justify-content: center;
+        padding: 40px 0;
+
+        .text {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+
+            h1 {
+                color: #0000;
+                -webkit-text-stroke: 2px #FFF;
+                font-weight: 800;
+                line-height: 1;
+                font-size: 50px;
+            }
+
+            h2 {
+                color: $violeta;
+                font-size: 35px;
+            }
+        }
+    }
+
+    main {
+        padding: 20px 0px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        // background-color: rebeccapurple;
+
+        .card_row {
+            background-color: rebeccapurple;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .card_wrap {
+                height: 350px;
+                width: 255px;
+                background-color: #ffffff;
+                border-radius: 20px;
+                overflow: hidden;
+                -webkit-box-shadow: 4px 4px 12px 0px rgba(0, 0, 0, 0.83);
+                box-shadow: 4px 4px 12px 0px rgba(0, 0, 0, 0.83);
+                margin: 5px;    
+
+                .card_header {
+                    background-color: red;
+                    height: 90px;
+                }
+
+                .card_price {
+                    background-color: #650467;
+                    height: 80px;
+                }
+
+                .card_vantages {
+                    background-color: #4af51f;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    #planos {
+
+        main {
+            flex-direction: column;
+
+            .card_wrap {
+                height: 350px;
+                width: 255px;
+                background-color: #ffffff;
+                border-radius: 20px;
+                overflow: hidden;
+                -webkit-box-shadow: 4px 4px 12px 0px rgba(0, 0, 0, 0.83);
+                box-shadow: 4px 4px 12px 0px rgba(0, 0, 0, 0.83);
+
+                &+.card_wrap {
+                    margin-top: 5px;
+                    margin-left: 5px;
+                }
+
+                .card_header {
+                    background-color: red;
+                    height: 105px;
+                }
+
+                .card_price {
+                    background-color: #650467;
+                    height: 80px;
+                }
+            }
+        }
+    }
+}
