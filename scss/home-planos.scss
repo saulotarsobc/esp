@@ -55,18 +55,31 @@ $orange : #f89c11;
                 margin: 5px;
 
                 .card_header {
-                    background-color: red;
                     height: 90px;
+                    /* gradiente */
+                    background: #003CCE;
+                    background: -moz-linear-gradient(45deg, #003CCE 0%, #1210A4 19%, #30C5C4 100%);
+                    background: -webkit-linear-gradient(45deg, #003CCE 0%, #1210A4 19%, #30C5C4 100%);
+                    background: linear-gradient(45deg, #003CCE 0%, #1210A4 19%, #30C5C4 100%);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
                 }
 
                 .card_price {
-                    background-color: #650467;
                     height: 80px;
+                    background-color: white;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
                 }
 
                 .card_vantages {
-                    background-color: #4af51f;
-                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    height: calc(100% - 90px - 80px);
+                    background-color: white;
                 }
             }
         }
@@ -78,15 +91,17 @@ $orange : #f89c11;
         main {
             // background-color: #4af51f;
             flex-direction: column;
+
             .card_row {
                 width: 100%;
-                .card_wrap {
-                    .card_header {}
 
-                    .card_price {}
+                // .card_wrap {
+                //     .card_header {}
 
-                    .card_vantages {}
-                }
+                //     .card_price {}
+
+                //     .card_vantages {}
+                // }
             }
         }
     }
@@ -97,13 +112,14 @@ $orange : #f89c11;
         main {
             .card_row {
                 flex-direction: column;
-                .card_wrap {
-                    .card_header {}
 
-                    .card_price {}
+                // .card_wrap {
+                //     .card_header {}
 
-                    .card_vantages {}
-                }
+                //     .card_price {}
+
+                //     .card_vantages {}
+                // }
             }
         }
     }
