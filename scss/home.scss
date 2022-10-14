@@ -69,6 +69,9 @@ body {
         display: flex;
         flex-direction: row;
 
+        height: calc(100vh - 68px);
+        max-height: 1500px;
+
         .start_col {
             padding: 20px;
             width: 50%;
