@@ -2,7 +2,7 @@ $violeta : #650467;
 $violeta_transparent : #650467bd;
 $orange : #f89c11;
 
-body{
+body {
     position: relative;
 }
 
@@ -14,7 +14,7 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 0 10px;
-    position: fixed;
+    // position: fixed;
 
     #logo {
         height: 45px;
@@ -60,38 +60,48 @@ body{
 }
 
 #main {
-    #slides-wrap {
-        height: 600px;
-        overflow: hidden;
-        // position: relative;
 
-        #slides {
-            padding-top: 66px;
-            display: flex;
-            // width: calc(100vw * 3);
-            height: 100%;
-            // position: absolute;
-            left: 0px;
+    .start_row {
+        display: flex;
+        flex-direction: row;
 
-            .slide {
-                width: 100vw;
-                height: 100%;
-
-            }
-
-            #slide-1 {
-                background-color: white;
-            }
-
-            #slide-2 {
-                background-color: aqua;
-            }
-
-            #slide-3 {
-                background-color: white;
-            }
+        .start_col {
+            width: 50%;
         }
     }
+
+    // #slides-wrap {
+    //     height: 600px;
+    //     overflow: hidden;
+    //     // position: relative;
+
+    //     #slides {
+    //         padding-top: 66px;
+    //         display: flex;
+    //         // width: calc(100vw * 3);
+    //         height: 100%;
+    //         // position: absolute;
+    //         left: 0px;
+
+    //         .slide {
+    //             width: 100vw;
+    //             height: 100%;
+
+    //         }
+
+    //         #slide-1 {
+    //             background-color: white;
+    //         }
+
+    //         #slide-2 {
+    //             background-color: aqua;
+    //         }
+
+    //         #slide-3 {
+    //             background-color: white;
+    //         }
+    //     }
+    // }
 
     #vantagens {
         background-color: white;
