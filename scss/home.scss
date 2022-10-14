@@ -258,6 +258,14 @@ body {
 
 @media (max-width: 980px) {
     #main {
+        .start_row {
+            display: flex;
+            flex-direction: column;
+    
+            .start_col {
+                width: 100%;
+            }
+        }
         #vantagens {
             #vant-itens {
                 flex-direction: column;
