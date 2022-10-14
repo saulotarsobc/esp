@@ -62,11 +62,20 @@ body {
 #main {
 
     .start_row {
+        background: linear-gradient(0deg, $violeta, #65046761), url("../img/2903170.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+
         display: flex;
         flex-direction: row;
 
         .start_col {
+            padding: 20px;
             width: 50%;
+        }
+
+        #col_1 {
+            color: white;
         }
     }
 
@@ -261,11 +270,12 @@ body {
         .start_row {
             display: flex;
             flex-direction: column;
-    
+
             .start_col {
                 width: 100%;
             }
         }
+
         #vantagens {
             #vant-itens {
                 flex-direction: column;
