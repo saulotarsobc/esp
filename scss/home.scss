@@ -270,7 +270,7 @@ body {
 
         .col {
             position: relative;
-            padding: 20px 15px;
+            padding: 20px 8px;
             min-height: 200px;
             width: 100%;
 
@@ -290,7 +290,6 @@ body {
 
             .body {
                 width: 100%;
-                padding: 10px;
 
                 .title_2 {
                     margin-bottom: 10px;
@@ -299,7 +298,8 @@ body {
                 a {
                     font-size: 18px;
                     color: $gray;
-                    &.hover{
+
+                    &.hover {
                         color: white;
                     }
                 }
@@ -312,6 +312,34 @@ body {
 
                     i {
                         font-size: 40px;
+                    }
+
+                    .fa-facebook-square:hover {
+                        transition-duration: .5s;
+                        color: #3d67c0
+                    }
+
+                    .fa-instagram:hover {
+                        transition-duration: .2s;
+                        background: -webkit-radial-gradient(33% 100% circle, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
+                        background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent
+                    }
+
+                    .fa-twitter:hover {
+                        transition-duration: .2s;
+                        color: #009dff
+                    }
+
+                    .fa-at:hover {
+                        transition-duration: .2s;
+                        color: #fbff00
+                    }
+
+                    .fa-phone-square-alt:hover {
+                        transition-duration: .2s;
+                        color: #fff
                     }
 
                 }
@@ -375,7 +403,7 @@ body {
 
             .col {
                 width: 100%;
-                padding: 20px 30px;
+                padding: 20px;
 
                 &.col {
                     border-bottom: 1px solid $gray;
