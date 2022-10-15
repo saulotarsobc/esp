@@ -270,8 +270,8 @@ body {
 
         .col {
             position: relative;
-            padding: 20px 8px;
-            min-height: 200px;
+            padding: 20px 12px;
+            // min-height: 180px;
             width: 100%;
 
             .title {
@@ -291,7 +291,11 @@ body {
             .body {
                 width: 100%;
 
-                .sobre_nos_msg{
+                .google_map {
+                    border-radius: 8px;
+                }
+
+                .sobre_nos_msg {
                     font-size: 18px;
                 }
 
@@ -302,8 +306,9 @@ body {
                 a {
                     font-size: 18px;
                     color: $gray;
+                    transition: all .3s ease-in-out;
 
-                    &.hover {
+                    &:hover {
                         color: white;
                     }
                 }
