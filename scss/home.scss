@@ -292,8 +292,28 @@ body {
                 width: 100%;
                 padding: 10px;
 
-                .title_2{
+                .title_2 {
                     margin-bottom: 10px;
+                }
+
+                a {
+                    font-size: 18px;
+                    color: $gray;
+                    &.hover{
+                        color: white;
+                    }
+                }
+
+                .social {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                    height: 200px;
+
+                    i {
+                        font-size: 40px;
+                    }
+
                 }
             }
         }
@@ -334,7 +354,7 @@ body {
             }
         }
     }
-    
+
 }
 
 @media (max-width: 750px) {
@@ -352,12 +372,13 @@ body {
         .row {
             flex-direction: column;
             justify-content: center;
-            
+
             .col {
                 // background-color: red;
                 width: 100%;
                 padding: 20px 30px;
-                &.col{
+
+                &.col {
                     border-bottom: 1px solid $gray;
                 }
             }
