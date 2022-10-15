@@ -291,6 +291,10 @@ body {
             .body {
                 width: 100%;
 
+                .sobre_nos_msg{
+                    font-size: 18px;
+                }
+
                 .title_2 {
                     margin-bottom: 10px;
                 }
@@ -346,8 +350,6 @@ body {
             }
         }
     }
-
-    @media (max-width: 750px) {}
 }
 
 #footer-2 {
