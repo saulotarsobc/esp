@@ -81,40 +81,16 @@ body {
         #col_1 {
             color: white;
         }
+
+        #col_2 {
+            display: flex;
+            justify-content: end;
+            svg {
+                max-height: 500px;
+                max-width: 500px;
+            }
+        }
     }
-
-    // #slides-wrap {
-    //     height: 600px;
-    //     overflow: hidden;
-    //     // position: relative;
-
-    //     #slides {
-    //         padding-top: 66px;
-    //         display: flex;
-    //         // width: calc(100vw * 3);
-    //         height: 100%;
-    //         // position: absolute;
-    //         left: 0px;
-
-    //         .slide {
-    //             width: 100vw;
-    //             height: 100%;
-
-    //         }
-
-    //         #slide-1 {
-    //             background-color: white;
-    //         }
-
-    //         #slide-2 {
-    //             background-color: aqua;
-    //         }
-
-    //         #slide-3 {
-    //             background-color: white;
-    //         }
-    //     }
-    // }
 
     #vantagens {
         background-color: white;
