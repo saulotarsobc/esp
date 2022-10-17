@@ -3,10 +3,6 @@ $violeta_transparent : #650467bd;
 $orange : #f89c11;
 $gray: #c3c3c3;
 
-body {
-    position: relative;
-}
-
 #header {
     height: 68px;
     width: 100%;
@@ -80,11 +76,47 @@ body {
 
         #col_1 {
             color: white;
+            height: 380px;
+            // background-color: rebeccapurple;
+
+            .orange_text{
+                color: $orange;
+                font-weight: bold;
+            }
+
+            >.col_title {
+
+                font-size: 50px;
+                width: 80%;
+                max-width: 400px;
+                // background-color: rebeccapurple;
+                padding: 20px;
+                font-family: "Poppins", Montserrat;
+                margin-bottom: 20px;
+            }
+
+            >.btn {
+                padding: 20px;
+                margin-left: 20px;
+                background-color: $orange;
+                font-size: 16px;
+                font-weight: bold;
+                border-radius: 15px 0 15px 0;
+            }
+
+            >.col_msg {
+                padding: 20px;
+                font-family: "Poppins", Montserrat;
+                font-size: 12px;
+                margin-top: 20px;
+                display: none;
+            }
         }
 
         #col_2 {
             display: flex;
             justify-content: end;
+
             svg {
                 max-height: 500px;
                 max-width: 500px;
