@@ -133,7 +133,7 @@ $orange : #f89c11;
                         border-radius: 15px;
                         transform: translateY(10px);
                         // position: absolute;
-                        
+                        transition: scale .2s ease-in-out;
 
                         &:hover{
                             scale: 1.1;
