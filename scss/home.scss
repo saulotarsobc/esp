@@ -364,12 +364,16 @@ $gray: #c3c3c3;
 }
 
 #footer-2 {
+    font-family: 'Courier New', Courier, monospace;
     display: flex;
     align-items: center;
     justify-content: center;
     color: $gray;
     background-color: #212529;
-    height: 30px
+    height: 30px;
+    a{
+        color: rgb(54, 114, 255);
+    }
 }
 
 @media (max-width: 1250px) {
